@@ -43,10 +43,10 @@ type ConnectionConfigProperties struct {
 	Database string
 
 	// Authentication for the database
-	Auth dbAuth
+	Auth DBAuth
 }
 
-type dbAuth struct {
+type DBAuth struct {
 	User     string
 	Password string
 }
